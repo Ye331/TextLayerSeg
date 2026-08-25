@@ -1,0 +1,45 @@
+{
+  "full_forward_max_abs_diff": 0.0,
+  "new_full_initial_sha256": "970810c26d945876afdca935dc6a402728f0e0850907af3da86d898fc23f1985",
+  "official_test_used": false,
+  "official_val_used": false,
+  "original_full_initial_sha256": "970810c26d945876afdca935dc6a402728f0e0850907af3da86d898fc23f1985",
+  "status": "complete",
+  "variants": {
+    "allscale": {
+      "active_gradient_parameters": 36507340,
+      "logits_finite": true,
+      "loss": 2.6843485832214355,
+      "total_parameters": 42122067,
+      "trainable_parameters": 38574159
+    },
+    "c2": {
+      "active_gradient_parameters": 3833036,
+      "logits_finite": true,
+      "loss": 2.636840581893921,
+      "total_parameters": 32680275,
+      "trainable_parameters": 5899855
+    },
+    "fpn": {
+      "active_gradient_parameters": 31525836,
+      "logits_finite": true,
+      "loss": 2.770214796066284,
+      "total_parameters": 37140563,
+      "trainable_parameters": 33592655
+    },
+    "fpn_context": {
+      "active_gradient_parameters": 34737868,
+      "logits_finite": true,
+      "loss": 2.837918519973755,
+      "total_parameters": 40352595,
+      "trainable_parameters": 36804687
+    },
+    "full": {
+      "active_gradient_parameters": 46543052,
+      "logits_finite": true,
+      "loss": 3.181797981262207,
+      "total_parameters": 52157779,
+      "trainable_parameters": 48609871
+    }
+  }
+}

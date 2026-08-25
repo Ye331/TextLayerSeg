@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "scope": "seed-2026 grouped internal development ablation",
+  "official_validation_used": false,
+  "official_test_used": false,
+  "successful_updates": 8192,
+  "selection_rule": ["miou", "macro_f1", "ov_f1", "earlier_step"],
+  "variants": {
+    "c2": {"miou": 0.7202433872, "ov_iou": 0.5781206189},
+    "fpn": {"miou": 0.7707508393, "ov_iou": 0.6220736088},
+    "fpn_context": {"miou": 0.7799680454, "ov_iou": 0.6394588561},
+    "allscale": {"miou": 0.7749158796, "ov_iou": 0.6343192508},
+    "full_refinement": {"miou": 0.7771403309, "ov_iou": 0.6452386189}
+  },
+  "selected_variant": "fpn_context"
+}

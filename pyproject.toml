@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overlap-text-segmentation"
+version = "0.1.0"
+description = "Contextual feature pyramid for BG/T1/T2/OV text-layer segmentation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.2",
+  "torchvision>=0.17",
+  "Pillow>=10.0",
+  "numpy>=1.26"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["pyramid_overlap*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
