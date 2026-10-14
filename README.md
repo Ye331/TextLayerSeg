@@ -2,7 +2,7 @@
 
 **Paper Accepted at CISP-BMEI 2026**
 
-<img width="1402" height="946" alt="image" src="https://github.com/user-attachments/assets/f8eca7ef-c72d-400a-ad18-bb51af2adcdc" />
+<img width="684" height="402" alt="image" src="https://github.com/user-attachments/assets/4a3ce927-f62b-4df3-9ddf-65da32551d80" />
 
 
 Our related paper has been accepted at the **2026 19th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI 2026)**.
